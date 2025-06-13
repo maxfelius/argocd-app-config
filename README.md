@@ -14,3 +14,6 @@ https://gitlab.com/nanuchi/argocd-app-config
 # Install ArgoCD
 https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd
 
+port forwarding
+`kubectl port-forward -n argocd svc/argocd-server 8080:443`
+
